@@ -1,0 +1,40 @@
+# Basic Calculations & Variable Assignment
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jAzjcP1acec"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+## Use R as a calculator
+```{r eval=FALSE}
+1 + 2
+1 - 2
+2 * 4
+2 /4
+(3 + 4) * 5
+10^2
+sqrt(100)
+log(100)
+log10(100)
+log(100, 10)
+log(125, 5)
+```
+
+[Introduction to R codes]
+
+## Variable Assignment
+
+```{r eval=FALSE}
+x_numeric <-  5
+y_numeric <- 6
+x_numeric * y_numeric
+x_numeric <- c(1,2,3,4)
+x_numeric
+x_numeric <- 1:4
+x_numeric * 3
+x_numeric / 5
+sheepstudio <- "sheep"
+sheepstudio <- "sheep"
+animals <- c("sheep", "pig", "monkey")
+animals #letters, numbers, underscore, and period
+```

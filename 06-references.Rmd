@@ -1,0 +1,34 @@
+
+# Installation of R, RStudio and R Packages
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/d7HYDH5uNWs"
+frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
+## Introduction to R codes
+
+```{r eval=FALSE}
+1 + 1
+```
+
+
+## Installation of R Packages
+
+```{r eval=FALSE}
+install.packages("learnr")
+#install.packages(learnr) ##WRONG
+```
+
+
+## Exercise setup
+
+You can run the following code to do the exercise. 
+```{r eval=FALSE}
+install.packages("devtools")
+install.packages("learnr")
+library(devtools)
+library(learnr)
+install_github("sheepstudio007/r02pro")
+run_tutorial("01","r02pro")
+```
